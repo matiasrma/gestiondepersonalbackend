@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "rV+2ag/rGC4NtJs4zaHHgVbizCYoPGn6MewipaRNHS9+kdBZG9Zf81V2smeM4UlvaeTmEnK9KW4gbPaKZZwy8w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal\\Personal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\54299\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\54299\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
+    "C:\\Users\\54299\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\54299\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\54299\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\54299\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

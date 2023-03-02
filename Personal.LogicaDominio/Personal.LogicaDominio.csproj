@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Personal.AccesoADatos\Personal.AccesoADatos.csproj" />
+    <ProjectReference Include="..\Personal.InterfazAccesoADatos\Personal.InterfazAccesoADatos.csproj" />
+    <ProjectReference Include="..\Personal.InterfazLogicaDominio\Personal.InterfazLogicaDominio.csproj" />
+  </ItemGroup>
+
+</Project>

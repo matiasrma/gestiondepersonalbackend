@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Personal.InterfazAccesoADatos/1.0.0": {
+        "dependencies": {
+          "Personal.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "Personal.InterfazAccesoADatos.dll": {}
+        }
+      },
+      "Personal.Dominio/1.0.0": {
+        "runtime": {
+          "Personal.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Personal.InterfazAccesoADatos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Personal.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

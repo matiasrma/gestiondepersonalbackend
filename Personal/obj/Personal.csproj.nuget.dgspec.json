@@ -1,0 +1,554 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal\\Personal.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.AccesoADatos\\Personal.AccesoADatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.AccesoADatos\\Personal.AccesoADatos.csproj",
+        "projectName": "Personal.AccesoADatos",
+        "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.AccesoADatos\\Personal.AccesoADatos.csproj",
+        "packagesPath": "C:\\Users\\54299\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.AccesoADatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\54299\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Excepciones\\Personal.Excepciones.csproj": {
+                "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Excepciones\\Personal.Excepciones.csproj"
+              },
+              "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazAccesoADatos\\Personal.InterfazAccesoADatos.csproj": {
+                "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazAccesoADatos\\Personal.InterfazAccesoADatos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Dominio\\Personal.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Dominio\\Personal.Dominio.csproj",
+        "projectName": "Personal.Dominio",
+        "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Dominio\\Personal.Dominio.csproj",
+        "packagesPath": "C:\\Users\\54299\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\54299\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Excepciones\\Personal.Excepciones.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Excepciones\\Personal.Excepciones.csproj",
+        "projectName": "Personal.Excepciones",
+        "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Excepciones\\Personal.Excepciones.csproj",
+        "packagesPath": "C:\\Users\\54299\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Excepciones\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\54299\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Factory\\Personal.Factory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Factory\\Personal.Factory.csproj",
+        "projectName": "Personal.Factory",
+        "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Factory\\Personal.Factory.csproj",
+        "packagesPath": "C:\\Users\\54299\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Factory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\54299\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.AccesoADatos\\Personal.AccesoADatos.csproj": {
+                "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.AccesoADatos\\Personal.AccesoADatos.csproj"
+              },
+              "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazLogicaDominio\\Personal.InterfazLogicaDominio.csproj": {
+                "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazLogicaDominio\\Personal.InterfazLogicaDominio.csproj"
+              },
+              "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.LogicaDominio\\Personal.LogicaDominio.csproj": {
+                "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.LogicaDominio\\Personal.LogicaDominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazAccesoADatos\\Personal.InterfazAccesoADatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazAccesoADatos\\Personal.InterfazAccesoADatos.csproj",
+        "projectName": "Personal.InterfazAccesoADatos",
+        "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazAccesoADatos\\Personal.InterfazAccesoADatos.csproj",
+        "packagesPath": "C:\\Users\\54299\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazAccesoADatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\54299\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Dominio\\Personal.Dominio.csproj": {
+                "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Dominio\\Personal.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazLogicaDominio\\Personal.InterfazLogicaDominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazLogicaDominio\\Personal.InterfazLogicaDominio.csproj",
+        "projectName": "Personal.InterfazLogicaDominio",
+        "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazLogicaDominio\\Personal.InterfazLogicaDominio.csproj",
+        "packagesPath": "C:\\Users\\54299\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazLogicaDominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\54299\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Dominio\\Personal.Dominio.csproj": {
+                "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Dominio\\Personal.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.LogicaDominio\\Personal.LogicaDominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.LogicaDominio\\Personal.LogicaDominio.csproj",
+        "projectName": "Personal.LogicaDominio",
+        "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.LogicaDominio\\Personal.LogicaDominio.csproj",
+        "packagesPath": "C:\\Users\\54299\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.LogicaDominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\54299\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.AccesoADatos\\Personal.AccesoADatos.csproj": {
+                "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.AccesoADatos\\Personal.AccesoADatos.csproj"
+              },
+              "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazAccesoADatos\\Personal.InterfazAccesoADatos.csproj": {
+                "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazAccesoADatos\\Personal.InterfazAccesoADatos.csproj"
+              },
+              "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazLogicaDominio\\Personal.InterfazLogicaDominio.csproj": {
+                "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazLogicaDominio\\Personal.InterfazLogicaDominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal\\Personal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal\\Personal.csproj",
+        "projectName": "Personal",
+        "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal\\Personal.csproj",
+        "packagesPath": "C:\\Users\\54299\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\54299\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Excepciones\\Personal.Excepciones.csproj": {
+                "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Excepciones\\Personal.Excepciones.csproj"
+              },
+              "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Factory\\Personal.Factory.csproj": {
+                "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.Factory\\Personal.Factory.csproj"
+              },
+              "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazLogicaDominio\\Personal.InterfazLogicaDominio.csproj": {
+                "projectPath": "C:\\Users\\54299\\OneDrive\\Documentos\\Programacion\\Fichadas\\Personal\\Personal.InterfazLogicaDominio\\Personal.InterfazLogicaDominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
